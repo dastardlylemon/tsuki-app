@@ -16,6 +16,16 @@
 		1AD5433315E1A62E0069A0A3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5433115E1A62E0069A0A3 /* MainStoryboard.storyboard */; };
 		1AD5433615E1A62E0069A0A3 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5433515E1A62E0069A0A3 /* MasterViewController.m */; };
 		1AD5433915E1A62E0069A0A3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5433815E1A62E0069A0A3 /* DetailViewController.m */; };
+		1AD5434215E1A6D60069A0A3 /* Series.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5434115E1A6D60069A0A3 /* Series.m */; };
+		1AD5434A15E1A7B40069A0A3 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5434515E1A7B40069A0A3 /* TFHpple.m */; };
+		1AD5434B15E1A7B40069A0A3 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5434715E1A7B40069A0A3 /* TFHppleElement.m */; };
+		1AD5434C15E1A7B40069A0A3 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5434915E1A7B40069A0A3 /* XPathQuery.m */; };
+		1AD5434E15E1A7F90069A0A3 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD5434D15E1A7F90069A0A3 /* libxml2.dylib */; };
+		1AD5435115E446480069A0A3 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5435015E446480069A0A3 /* placeholder.jpg */; };
+		334F94FB16278C5000928A2E /* CollapsableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 334F94F516278C5000928A2E /* CollapsableTableView.m */; };
+		334F94FC16278C5000928A2E /* CollapsableTableViewHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334F94F716278C5000928A2E /* CollapsableTableViewHeaderViewController.m */; };
+		334F94FD16278C5000928A2E /* CollapsableTableViewTapRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 334F94F916278C5000928A2E /* CollapsableTableViewTapRecognizer.m */; };
+		334F950016278C9400928A2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 334F94FF16278C9400928A2E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +33,35 @@
 		1AD5431F15E1A62D0069A0A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1AD5432115E1A62D0069A0A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1AD5432315E1A62D0069A0A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1AD5432715E1A62D0069A0A3 /* Tsuki-Info.plist */ = {isa = PBXFileReference; path = "Tsuki-Info.plist"; sourceTree = "<group>"; };
+		1AD5432715E1A62D0069A0A3 /* Tsuki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tsuki-Info.plist"; sourceTree = "<group>"; };
 		1AD5432915E1A62D0069A0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AD5432B15E1A62D0069A0A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1AD5432D15E1A62D0069A0A3 /* Tsuki-Prefix.pch */ = {isa = PBXFileReference; path = "Tsuki-Prefix.pch"; sourceTree = "<group>"; };
-		1AD5432E15E1A62D0069A0A3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AD5432D15E1A62D0069A0A3 /* Tsuki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tsuki-Prefix.pch"; sourceTree = "<group>"; };
+		1AD5432E15E1A62D0069A0A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1AD5432F15E1A62D0069A0A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1AD5433215E1A62E0069A0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1AD5433415E1A62E0069A0A3 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		1AD5433415E1A62E0069A0A3 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		1AD5433515E1A62E0069A0A3 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		1AD5433715E1A62E0069A0A3 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		1AD5433715E1A62E0069A0A3 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		1AD5433815E1A62E0069A0A3 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1AD5434015E1A6D60069A0A3 /* Series.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Series.h; sourceTree = "<group>"; };
+		1AD5434115E1A6D60069A0A3 /* Series.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Series.m; sourceTree = "<group>"; };
+		1AD5434415E1A7B40069A0A3 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		1AD5434515E1A7B40069A0A3 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		1AD5434615E1A7B40069A0A3 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		1AD5434715E1A7B40069A0A3 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		1AD5434815E1A7B40069A0A3 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		1AD5434915E1A7B40069A0A3 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		1AD5434D15E1A7F90069A0A3 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		1AD5435015E446480069A0A3 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		334F94F416278C5000928A2E /* CollapsableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapsableTableView.h; sourceTree = "<group>"; };
+		334F94F516278C5000928A2E /* CollapsableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapsableTableView.m; sourceTree = "<group>"; };
+		334F94F616278C5000928A2E /* CollapsableTableViewHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapsableTableViewHeaderViewController.h; sourceTree = "<group>"; };
+		334F94F716278C5000928A2E /* CollapsableTableViewHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapsableTableViewHeaderViewController.m; sourceTree = "<group>"; };
+		334F94F816278C5000928A2E /* CollapsableTableViewTapRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapsableTableViewTapRecognizer.h; sourceTree = "<group>"; };
+		334F94F916278C5000928A2E /* CollapsableTableViewTapRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapsableTableViewTapRecognizer.m; sourceTree = "<group>"; };
+		334F94FA16278C5000928A2E /* TapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapDelegate.h; sourceTree = "<group>"; };
+		334F94FF16278C9400928A2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD5434E15E1A7F90069A0A3 /* libxml2.dylib in Frameworks */,
 				1AD5432015E1A62D0069A0A3 /* UIKit.framework in Frameworks */,
 				1AD5432215E1A62D0069A0A3 /* Foundation.framework in Frameworks */,
 				1AD5432415E1A62D0069A0A3 /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +82,8 @@
 		1AD5431015E1A6280069A0A3 = {
 			isa = PBXGroup;
 			children = (
+				334F94FF16278C9400928A2E /* Default-568h@2x.png */,
+				1AD5434D15E1A7F90069A0A3 /* libxml2.dylib */,
 				1AD5432515E1A62D0069A0A3 /* Tsuki */,
 				1AD5431E15E1A62D0069A0A3 /* Frameworks */,
 				1AD5431C15E1A62D0069A0A3 /* Products */,
@@ -80,6 +111,10 @@
 		1AD5432515E1A62D0069A0A3 /* Tsuki */ = {
 			isa = PBXGroup;
 			children = (
+				334F94F316278C5000928A2E /* CollapsableTableView */,
+				1AD5434F15E446360069A0A3 /* Resources */,
+				1AD5434315E1A77B0069A0A3 /* hpple */,
+				1AD5433F15E1A6B80069A0A3 /* Model */,
 				1AD5432E15E1A62D0069A0A3 /* AppDelegate.h */,
 				1AD5432F15E1A62D0069A0A3 /* AppDelegate.m */,
 				1AD5433115E1A62E0069A0A3 /* MainStoryboard.storyboard */,
@@ -101,6 +136,50 @@
 				1AD5432D15E1A62D0069A0A3 /* Tsuki-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AD5433F15E1A6B80069A0A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5434015E1A6D60069A0A3 /* Series.h */,
+				1AD5434115E1A6D60069A0A3 /* Series.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1AD5434315E1A77B0069A0A3 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5434415E1A7B40069A0A3 /* TFHpple.h */,
+				1AD5434515E1A7B40069A0A3 /* TFHpple.m */,
+				1AD5434615E1A7B40069A0A3 /* TFHppleElement.h */,
+				1AD5434715E1A7B40069A0A3 /* TFHppleElement.m */,
+				1AD5434815E1A7B40069A0A3 /* XPathQuery.h */,
+				1AD5434915E1A7B40069A0A3 /* XPathQuery.m */,
+			);
+			name = hpple;
+			sourceTree = "<group>";
+		};
+		1AD5434F15E446360069A0A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5435015E446480069A0A3 /* placeholder.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		334F94F316278C5000928A2E /* CollapsableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				334F94F416278C5000928A2E /* CollapsableTableView.h */,
+				334F94F516278C5000928A2E /* CollapsableTableView.m */,
+				334F94F616278C5000928A2E /* CollapsableTableViewHeaderViewController.h */,
+				334F94F716278C5000928A2E /* CollapsableTableViewHeaderViewController.m */,
+				334F94F816278C5000928A2E /* CollapsableTableViewTapRecognizer.h */,
+				334F94F916278C5000928A2E /* CollapsableTableViewTapRecognizer.m */,
+				334F94FA16278C5000928A2E /* TapDelegate.h */,
+			);
+			path = CollapsableTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +234,8 @@
 			files = (
 				1AD5432A15E1A62D0069A0A3 /* InfoPlist.strings in Resources */,
 				1AD5433315E1A62E0069A0A3 /* MainStoryboard.storyboard in Resources */,
+				1AD5435115E446480069A0A3 /* placeholder.jpg in Resources */,
+				334F950016278C9400928A2E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +250,13 @@
 				1AD5433015E1A62D0069A0A3 /* AppDelegate.m in Sources */,
 				1AD5433615E1A62E0069A0A3 /* MasterViewController.m in Sources */,
 				1AD5433915E1A62E0069A0A3 /* DetailViewController.m in Sources */,
+				1AD5434215E1A6D60069A0A3 /* Series.m in Sources */,
+				1AD5434A15E1A7B40069A0A3 /* TFHpple.m in Sources */,
+				1AD5434B15E1A7B40069A0A3 /* TFHppleElement.m in Sources */,
+				1AD5434C15E1A7B40069A0A3 /* XPathQuery.m in Sources */,
+				334F94FB16278C5000928A2E /* CollapsableTableView.m in Sources */,
+				334F94FC16278C5000928A2E /* CollapsableTableViewHeaderViewController.m in Sources */,
+				334F94FD16278C5000928A2E /* CollapsableTableViewTapRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +302,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
@@ -232,6 +321,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -280,6 +370,7 @@
 				1AD5433E15E1A62E0069A0A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

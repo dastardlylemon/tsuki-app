@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterViewController : UITableViewController
+@class DetailViewController;
+
+@interface MasterViewController : UITableViewController <UISearchBarDelegate, UISearchDisplayDelegate>
+{
+    NSMutableArray *searchData;
+    
+    UISearchBar *searchBar;
+    UISearchDisplayController *searchDisplayController;
+}
+
+@property (strong,nonatomic) NSMutableArray *filteredNovelArray;
+@property IBOutlet UISearchBar *novelSearchBar;
+@property (strong, nonatomic) DetailViewController *detailViewController;
 
 @end
